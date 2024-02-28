@@ -80,7 +80,7 @@ const Contact = () => {
             </Button>
             <span className="done">
               {done &&
-                "Thanks for contacting me and be sure i have recieved your mail. If you are testing this functionality then i am confirming this thing working perfectly fine. If you have any serious query then i will reply. Also if you need me, you can conatct me on Linkedin."}
+                "Thank you for reaching out to me I look forward to your comments. I will respond if the message requires a response."}
             </span>
           </form>
         </Col>
