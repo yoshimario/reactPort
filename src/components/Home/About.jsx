@@ -4,7 +4,6 @@ import LaptopImg from "../../assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
@@ -22,10 +21,12 @@ const About = () => {
                 </h1>
                 <p className="home-about-body">
                  Hi, my name is <span className="yellow">Sean Kipinä </span>
-                 and I'm in <span className="yellow">Helsinki, Finland</span>
+                 and I'm from <span className="yellow">Helsinki, Finland</span>
                 <br />
                 <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+                I am currenly working on my Bachelor's degree in Business Information Technology, Cyber Security that started in 2023 at Laurea University of Applied Sciences. <br />
+                <br />
+                I currently have a Bachelor's degree
                 <br />
                 <br />
                   As a
