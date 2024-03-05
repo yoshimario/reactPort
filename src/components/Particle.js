@@ -8,7 +8,7 @@ function Particle() {
       params={{
         particles: {
           number: {
-            value: 160,
+            value: 600, // Increase the number of particles
             density: {
               enable: true,
               value_area: 1500,
@@ -18,9 +18,17 @@ function Particle() {
             enable: false,
             opacity: 0.03,
           },
+          shape: {
+            type: "star", // Set particle shape to star
+            stroke: {
+              width: .5,
+              color: "#ffa500",
+            },
+          },
           move: {
-            direction: "right",
-            speed: 0.05,
+            direction: "top",
+            speed: 40, // Increase the speed
+            out_mode: "out",
           },
           size: {
             value: 1,
